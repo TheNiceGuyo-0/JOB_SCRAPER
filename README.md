@@ -76,3 +76,4 @@ job_scraper/
     ├── indeed.py       # Scraper for Indeed.com
     └── linkedin.py     # Scraper for LinkedIn.com
 ```
+## By TheNiceGuyo-0.
