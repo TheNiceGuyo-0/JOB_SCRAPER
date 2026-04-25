@@ -4,7 +4,7 @@ def show_new_jobs():
     jobs = get_new_jobs()
 
     if not jobs:
-        print("\n  No new jobs since last check!")
+        print("\n  NO NEW JOBS FOUND")
         return
 
     print(f"\n{'='*60}")

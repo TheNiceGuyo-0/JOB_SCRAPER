@@ -39,7 +39,10 @@ def save_jobs(jobs):
 
     conn.commit()
     conn.close()
-    print(f"Saved {new_count} new jobs to database")
+    if new_count == 0:
+        print("NO NEW JOBS FOUND")
+    else:
+        print(f"Saved {new_count} new jobs to database")
     return new_count
 
 def get_new_jobs():
